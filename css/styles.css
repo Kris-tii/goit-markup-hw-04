@@ -286,15 +286,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-white2-color); 
 max-width: 264px;   
+margin-top: 16px;
 }
 
 .part-logo-white{
 color: var(--main-white2-color); 
 }
 
-.logo-footer{
+/* .logo-footer{
     margin-bottom: 16px;
-}
+} */
 /* +++++++++++++++++++++++++++++++Portfolio+++++++++ */
 .btn{
     padding: 12px 24px;
@@ -321,7 +322,6 @@ color: var(--main-white-color)
 }
 
 .slider-title{
-padding-left: 16px;
 margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
@@ -331,7 +331,6 @@ color: var(--main-gray-color);
 }
 
 .slider-text{
-padding-left: 16px;
  font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
@@ -358,7 +357,7 @@ margin-bottom: 72px;
 }
 
 .portfolio-container{
-padding: 32px 0px;
+padding: 32px 16px;
 border: 1px solid #E7E9FC;
 border-top: none;
 }
