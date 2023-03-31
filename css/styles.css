@@ -325,6 +325,52 @@ padding: 32px 16px;
 background: var(--main-blue2-color);
 }
 
+/********************** customers ******************/
+.customers {
+    padding: 120px;
+}
+
+.customers-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--main-gray-color);
+margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+        gap: 24px;
+}
+
+.customers-item{
+    Width: 168px;
+    Height: 88px;    
+}
+.customers-link {
+width: 100%;
+height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  #8E8F99;
+    fill:#8E8F99;
+    border-radius: 4px;
+}
+
+.customers-icons{
+color: currentColor;
+}
+
+.customers-link:hover ,
+.customers-link:focus{
+    border-color: #404BBF;
+    fill: #404BBF;
+}
+
 /********************** footer ******************/
 .footer{
     background: var(--main-gray-color);
