@@ -175,7 +175,25 @@ background: var(--main-blue2-color);
     padding-bottom: 120px;
 }
 
+.section-img{
+    background: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-img-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-title{
+    margin-top: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
@@ -367,7 +385,7 @@ color: var(--main-white2-color);
     height: 100%;
     border-radius: 50%;
     display: inline-block;
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--main-blue-color);;
     display: flex;
     align-items: center;
     justify-content: center;
