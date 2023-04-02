@@ -43,7 +43,8 @@ display: block;
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
-        border: 1px solid #E7E9FC;
+    border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav{
@@ -136,6 +137,10 @@ background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
 background-repeat: no-repeat;
 padding-top: 188px;
 padding-bottom: 188px;
+max-width: 1440px;
+margin: 0 auto;
+background-position: center;
+background-size: cover;
 }
 
 .button{
@@ -327,7 +332,7 @@ background: var(--main-blue2-color);
 
 /********************** customers ******************/
 .customers {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .customers-title {
@@ -456,7 +461,7 @@ color: var(--main-white2-color);
 .btn{
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid transparent;
+    border: 1px solid #E7E9FC;
 font-family: 'Roboto', sans-serif ;
     font-style: 400;
     font-weight: 500;
@@ -474,7 +479,9 @@ font-family: 'Roboto', sans-serif ;
 .btn:hover,
 .btn:focus{
 background: var(--main-blue2-color);
-color: var(--main-white-color)
+color: var(--main-white-color);
+border: 1px solid var(--main-blue2-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .slider-title{
@@ -505,6 +512,11 @@ color: var(--main-gray2-color);
 justify-content:center;
 gap: 24px;
 margin-bottom: 72px;
+}
+
+.portfolio-link{
+    display: block;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .main-section-portfolio{
